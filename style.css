@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f6f6;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #16e303;
+    padding: 15px;
+    color: white;
+}
+.kotak-login {
+    width: 320px;
+    margin: 100px auto;
+    background: rgb(13, 161, 126);
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
