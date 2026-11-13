@@ -5,14 +5,18 @@ body {
     padding: 0;
 }
 .navbar {
-    background-color: #16e303;
-    padding: 15px;
-    color: white;
+    width: 320%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin:100px auto;
+    background: #01ffea;
+    padding: 25px;
+    color: rgb(110, 196, 235);
 }
 .kotak-login {
     width: 320px;
     margin: 100px auto;
-    background: rgb(13, 161, 126);
+    background: rgb(0, 255, 195);
     padding: 25px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -22,7 +26,12 @@ input, select, textarea {
     padding: 8px;
     margin: 5px 0 15px 0;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #989191;
     border-radius: 4px;
 }
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
 
